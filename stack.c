@@ -1,13 +1,17 @@
-//
-// Created by khaled on 9/12/23.
-//
+/**
+ * @file stack.c
+ * @brief Source code of the array based stack implementation.
+ * @author Khaled Mustafa
+ * @date 2023/09/10
+ * @version 1.0
+ */
 
 #include "stack.h"
 
 #define STACK_INIT 0
 
 /**
- * @brief Pushes an element to the top of the stack.
+ * Pushes an element to the top of the stack.
  * @param element The element to be pushed onto the stack.
  * @param pStack Address of the stack.
  * @return STACK_SUCCESS on success.
@@ -23,7 +27,7 @@ en_Stack_Status Push(STACK_ENTRY element, Stack *pStack) {
 }
 
 /**
- * @brief Pops out the top element from the stack.
+ * Pops out the top element from the stack.
  * @param pElement Address of the element to store the popped element.
  * @param pStack Address of the stack.
  * @return STACK_SUCCESS on success.
@@ -39,7 +43,7 @@ en_Stack_Status Pop(STACK_ENTRY *pElement, Stack *pStack) {
 }
 
 /**
- * @brief Checks if the stack is empty.
+ * Checks if the stack is empty.
  * @param pStack Address of the stack.
  * @return STACK_EMPTY if stack is empty.
  * @return STACK_ERROR on failure.
@@ -110,7 +114,7 @@ en_Stack_Status StackSize(Stack *pStack, uint8_t *pSize) {
  */
 en_Stack_Status ClearStack(Stack *pStack) {
     pStack->top = STACK_INIT;
-    return STACK_SUCCESS;
+    return STACK_CLEAR_SUCCESS;
 }
 
 /**
