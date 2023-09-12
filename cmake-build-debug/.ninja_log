@@ -1,0 +1,8 @@
+# ninja log v5
+0	23	1694472614803576812	CMakeFiles/data_structures.dir/main.c.o	bd58da38b7a72c07
+0	24	1694472614803576812	CMakeFiles/data_structures.dir/stack.c.o	52a127ae4adebfae
+24	39	1694472614819576995	data_structures	958f516646a98a78
+0	18	1694472651355994709	CMakeFiles/data_structures.dir/main.c.o	bd58da38b7a72c07
+18	34	1694472651371994892	data_structures	958f516646a98a78
+0	19	1694496641620165278	CMakeFiles/data_structures.dir/main.c.o	bd58da38b7a72c07
+19	35	1694496641636165753	data_structures	958f516646a98a78

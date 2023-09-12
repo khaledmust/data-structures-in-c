@@ -1,0 +1,3 @@
+/home/khaled/my-projects/data-structures/cmake-build-debug/CMakeFiles/data_structures.dir
+/home/khaled/my-projects/data-structures/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/khaled/my-projects/data-structures/cmake-build-debug/CMakeFiles/rebuild_cache.dir
